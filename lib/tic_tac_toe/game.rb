@@ -35,13 +35,16 @@ module TicTacToe
 			}
 			mapping[human_move]
 		end
-		
+	
+	public 
+	
 		def game_over_message
 			return "#{current_player.name} won!" if board.game_over == :winner
 			return "The game ended in a tie" if board.game_over == :draw
 		end
+	
 		
-		def players
+		def play
 			puts "#{current_player.name} has randomly been selected as the first player"
 			while true
 				board.formatted_grid
@@ -56,9 +59,10 @@ module TicTacToe
 					else
 						switch_players
 					end	
-				end
+				
 			end
 		end
 		
 	end
 end
+
