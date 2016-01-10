@@ -1,8 +1,7 @@
 # TicTacToe
+A Tic Tac Toe game created with Ruby (includes RSpec). 
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tic_tac_toe`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Below is the tic_tac_toe gem info.
 
 ## Installation
 
